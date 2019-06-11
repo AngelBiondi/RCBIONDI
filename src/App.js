@@ -7,6 +7,10 @@ import rcb3 from './rcb3.png'
 import rcb4 from './rcb4.png'
 import rcb5 from './rcb5.jpg'
 import logorc from './logo.png'
+import panaderia from './panaderia'
+import charcuteria from './charcuteria'
+import supermerca from './supermerca'
+import restaurante from './restaurante'
 
 function App() {
   return (
@@ -38,24 +42,27 @@ function App() {
 
       </header>
       <section className="descrip">
-        <p> <img className="sp" src={logorc} />   QUIENES SOMOS <br />
+        <p className="textoo"> <img className="sp" src={logorc} />   <h1>QUIENES SOMOS</h1> <br />
           Somos una Empresa Líder en la Venta de equipos para el Comercio,
           Distribuimos equipos de Refrigeración Comercial, equipos de Exhibición Comercial, Vitrinas, Equipos para Panaderías y Charcuterías, Neveras, Refrigeradores, Cavas, Hornos para Panadería y para Pizza, Rebanadoras Charcuteras, Molinos de Carne, Calentadores, Cocinas Industriales, Licuadoras Industriales, Balanzas Comerciales y demás Equipos para el Comercio.
           También ofrecemos un amplio stock de repuestos y consumibles para Equipos Comerciales y Refrigeración.
 
 Estamos ubicados en el corazón de la ciudad.<br /> Distribuimos dentro de todo el territorio nacional.
  </p>
-<hr/>
+
       </section>
-
+      <hr/>
       <section className='sections'>
-
-
+   
+          <p className='texto'>
+         <div className='card-deck'>
         <div className="card" stylesheet="width: 18rem;">
           <img src={logorc} className="card-img-top" alt="..." />
-          <button type="button" className="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+         
+          <button type="button" className="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip on top" >
             Panadería
 </button>
+
           <div className="card-body">
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
@@ -90,15 +97,20 @@ Estamos ubicados en el corazón de la ciudad.<br /> Distribuimos dentro de todo 
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
         </div>
-
-
+        </div>
+        </p>
       </section>
+
 <hr/>
+
       <section className="mapouter">
         <div className="gmap_canvas">
           <iframe width="600" height="500" className="gmap_canvas" src="https://maps.google.com/maps?q=refrigeracion%20comercial%20biondi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" />
         </div>
-        <p className="contacto">
+        </section>
+
+        <section className ="contacto">
+        <p className ="texto">
           CONTACTO:
      <li>0414-3525221</li>
           <li>rcbiondi@gmail.com</li>
@@ -122,8 +134,9 @@ Estamos ubicados en el corazón de la ciudad.<br /> Distribuimos dentro de todo 
         </p>
       </section>
 
-
-
+      <footer className="footer footer-expand-lg navbar-dark bg-primary">
+  <p>REFRIGERACION COMERCIAL BIONDI C.A.</p>
+  </footer>
 
     </div>
   );

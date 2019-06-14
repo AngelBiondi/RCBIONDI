@@ -69,3 +69,8 @@ section {
 footer {
   height: 50px;
 }
+
+
+.lista1{
+  border-block-style: 100px;
+}

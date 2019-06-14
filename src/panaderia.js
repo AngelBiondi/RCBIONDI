@@ -5,45 +5,50 @@ import App from './App'
 
 function panaderia() {
 
-        return (
-                <div>
-                         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a className="navbar-brand" href="/">R.C. BIONDI</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarText">
-          <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
-              <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Features</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Pricing</a>
-            </li>
-          </ul>
-          <span className="navbar-text">
-            Refrigeracion Comercial Biondi
-    </span>
-        </div>
-      </nav>
-                        <div>
-                                <ol>
-                                        <li>1</li>
-                                        <li>2</li>
-                                        <li>3</li>
-                                        <li>4</li>
+  return (
+    <div className='App'>
+      <h1>Equipos para Panaderias</h1>
+      <li className='lista1'>
 
-                                </ol>
-                        </div>
-                        <p>hola</p>
-                        <p>THIS IS A WHOLE DIFFERENT PAGE, WHY IT DOESN'T WORK</p>
-                        <p></p>
+        <h2>Mobiliario</h2>
+        <ul>Mostrador pasta seca </ul>
+        <ul>Mostrador charcutero </ul>
+        <ul> Mostrador pasta fría </ul>
+        <ul>Retromostrador</ul>
+        <ul>Retromostrador panero</ul>
+        <ul>Vitrina refrigerada</ul>
+        <ul>Mueble para máquina de café</ul>
+        <ul>Mueble de caja</ul>
+        <ul>Máquina de café express</ul>
+        <ul>Molino para café</ul>
+        <ul>Rebanadora</ul>
+        <ul>Termoselladora</ul>
+        <ul>Balanza electrónica</ul>
+        <ul>Balanza electrónica con etiquetadora</ul>
+      </li>
 
-                </div>
-        );
+      <li className='lista2'>
+
+        <h2>Maquinaria</h2>
+        <ul>Amasadora </ul>
+        <ul>Sobadora </ul>
+        <ul>Batidora</ul>
+        <ul>Laminadora</ul>
+        <ul>Horno para pan </ul>
+        <ul>Cava sartenera</ul>
+        <ul>Cava cuarto</ul>
+      </li>
+
+
+
+
+
+
+
+
+
+    </div>
+  );
 
 }
 

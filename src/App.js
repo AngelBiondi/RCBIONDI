@@ -11,21 +11,23 @@ import panaderia from './panaderia'
 import charcuteria from './charcuteria'
 import supermerca from './supermerca'
 import restaurante from './restaurante'
+import mainp from './mainp'
 import { NavLink , Route , Switch, Link} from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
+
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a className="navbar-brand" href="/">R.C. BIONDI</a>
+        <a className="navbar-brand" >R.C. BIONDI</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+              <a className="nav-link" href="/">Inicio <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Features</a>
@@ -39,108 +41,23 @@ function App() {
     </span>
         </div>
       </nav>
-      <header className="App-header">
-        <img className="fp" src={rcb5} />
+    
+     
 
-      </header>
-      <section className="descrip">
-        <img className="sp" src={logorc} />   <h1 className='textoo'>QUIENES SOMOS</h1>  <p className="textoo"> <br />
-          Somos una Empresa Líder en la Venta de equipos para el Comercio,
-          Distribuimos equipos de Refrigeración Comercial, equipos de Exhibición Comercial, Vitrinas, Equipos para Panaderías y Charcuterías, Neveras, Refrigeradores, Cavas, Hornos para Panadería y para Pizza, Rebanadoras Charcuteras, Molinos de Carne, Calentadores, Cocinas Industriales, Licuadoras Industriales, Balanzas Comerciales y demás Equipos para el Comercio.
-          También ofrecemos un amplio stock de repuestos y consumibles para Equipos Comerciales y Refrigeración.
-
-Estamos ubicados en el corazón de la ciudad.<br /> Distribuimos dentro de todo el territorio nacional.
- </p>
-
-      </section>
-      <hr />
-      <section className='sections'>
         <Switch>
-      <Route path="/panaderia" exact component={panaderia}/>
-      <Route path="/charcuteria" exact component={charcuteria}/>
-      <Route path="/restaurante" exact component={restaurante}/>
-      <Route path="/supermerca" exact component={supermerca}/>
-     </Switch>
-
-        <p className='texto'>
-          <div className='card-deck'>
-            <div className="card" stylesheet="width: 18rem;">
-              <img src={logorc} className="card-img-top" alt="..." />
-<NavLink to='/panaderia' >Panaderia</NavLink>
-
-              <div className="card-body">
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-
-            <div className="card" stylesheet="width: 18rem;">
-              <img src={logorc} className="card-img-top" alt="..." />
-              <NavLink to='/charcuteria'> Charcuteria</NavLink>
-
-              <div className="card-body">
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-
-            <div className="card" stylesheet="width: 18rem;">
-              <img src={logorc} className="card-img-top" alt="..." />
-              <button type="button" className="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-                Restaurantes
-</button>
-              <div className="card-body">
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-
-            <div className="card" stylesheet="width: 18rem;">
-              <img src={logorc} className="card-img-top" alt="..." />
-              <button type="button" className="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-                Supermercados
-</button>
-              <div className="card-body">
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-        </p>
-      </section>
-
-      <hr />
-
-      <section className="mapouter">
-        <div className="gmap_canvas">
-          <iframe width="600" height="500" className="gmap_canvas" src="https://maps.google.com/maps?q=refrigeracion%20comercial%20biondi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" />
-        </div>
-      </section>
-
-      <section className="contacto">
-        <p className="texto">
-          CONTACTO:
-     <li>0414-3525221</li>
-          <li>rcbiondi@gmail.com</li>
-
-          <br />
-
-          HORARIOS DE ATENCION:
-<li>Lunes-Viernes: 8:00AM-12:00M -- 2:00PM-5:00PM</li>
-          <li>Sabado y Domingo: CERRADO</li>
-
-          <br />
-
-          ENCUENTRANOS: <br />
-          Avenida Venezuela esquina Calle 40, Edificio Metropolitan, PB
-          Sector Centro, Sentido Este - Oeste
-          Barquisimeto 3001, Lara
-          Venezuela
-          <br />
-
-          <a href="https://www.google.com/maps/place/Refrigeraci%C3%B3n+Comercial+Biondi/@10.0721212,-69.3337968,17z/data=!3m1!4b1!4m5!3m4!1s0x8e876772cdf5b0e3:0x1043b2661ce369d2!8m2!3d10.0721212!4d-69.3316081" className="btn btn-dark btn-lg active" role="button" aria-pressed="true">COMO LLEGAR</a>
-        </p>
-      </section>
+        <Route path="/" exact component={mainp} />
+  <Route exact path="/panaderia"  component={panaderia}/>
+  <Route exact path="/charcuteria"  component={charcuteria}/>
+  <Route exact path="/restaurante"  component={restaurante}/>
+  <Route exact path="/supermerca"  component={supermerca}/>
+ </Switch>
+     
+     
 
       <footer className="footer footer-expand-lg navbar-dark bg-primary">
         <p>REFRIGERACION COMERCIAL BIONDI</p>
       </footer>
+     
 
     </div>
   );

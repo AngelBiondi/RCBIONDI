@@ -8,45 +8,39 @@ function panaderia() {
   return (
     <div className='App'>
       <h1>Equipos para Panaderias</h1>
-      <li className='lista1'>
+     <div className="listish">
+
+     <ul className='list-group list-group-flush'>
 
         <h2>Mobiliario</h2>
-        <ul>Mostrador pasta seca </ul>
-        <ul>Mostrador charcutero </ul>
-        <ul> Mostrador pasta fría </ul>
-        <ul>Retromostrador</ul>
-        <ul>Retromostrador panero</ul>
-        <ul>Vitrina refrigerada</ul>
-        <ul>Mueble para máquina de café</ul>
-        <ul>Mueble de caja</ul>
-        <ul>Máquina de café express</ul>
-        <ul>Molino para café</ul>
-        <ul>Rebanadora</ul>
-        <ul>Termoselladora</ul>
-        <ul>Balanza electrónica</ul>
-        <ul>Balanza electrónica con etiquetadora</ul>
-      </li>
-
-      <li className='lista2'>
-
+        
+        <li className='list-group-item'>Mostrador pasta seca </li>
+        <li className='list-group-item'>Mostrador charcutero </li>
+        <li className='list-group-item'>Mostrador pasta fría </li>
+        <li className='list-group-item'>Retromostrador</li>
+        <li className='list-group-item'>Retromostrador panero</li>
+        <li className='list-group-item'>Vitrina refrigerada</li>
+        <li className='list-group-item'>Mueble para máquina de café</li>
+        <li className='list-group-item'>Mueble de caja</li>
+        <li className='list-group-item'>Máquina de café express</li>
+        <li className='list-group-item'>Molino para café</li>
+        <li className='list-group-item'>Rebanadora</li>
+        <li className='list-group-item'>Termoselladora</li>
+        <li className='list-group-item'>Balanza electrónica</li>
+        <li className='list-group-item'>Balanza electrónica con etiquetadora</li>
+     </ul>
+     
+     <ul className='list-group list-group-flush'>
         <h2>Maquinaria</h2>
-        <ul>Amasadora </ul>
-        <ul>Sobadora </ul>
-        <ul>Batidora</ul>
-        <ul>Laminadora</ul>
-        <ul>Horno para pan </ul>
-        <ul>Cava sartenera</ul>
-        <ul>Cava cuarto</ul>
-      </li>
-
-
-
-
-
-
-
-
-
+        <li className='list-group-item'>Amasadora </li>
+        <li className='list-group-item'>Sobadora </li>
+        <li className='list-group-item'>Batidora</li>
+        <li className='list-group-item'>Laminadora</li>
+        <li className='list-group-item'>Horno para pan </li>
+        <li className='list-group-item'>Cava sartenera</li>
+        <li className='list-group-item'>Cava cuarto</li>
+     </ul>
+     </div>
     </div>
   );
 

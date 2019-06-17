@@ -9,9 +9,10 @@ import rcb5 from './rcb5.jpg'
 import logorc from './logo.png'
 import panaderia from './panaderia'
 import charcuteria from './charcuteria'
-import supermerca from './supermerca'
+import carniceria from './carniceria'
 import restaurante from './restaurante'
 import mainp from './mainp'
+import contactanos from './contact' 
 import { NavLink , Route , Switch, Link} from 'react-router-dom';
 
 
@@ -26,13 +27,14 @@ function App() {
         </button>
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
+            <li className="nav-item active">   
               <a className="nav-link" href="/">Inicio <span className="sr-only">(current)</span></a>
             </li>
-            {/* <li className="nav-item">
-              <a className="nav-link" href="#">Features</a>
-            </li>
             <li className="nav-item">
+              <a className="nav-link" href="/contact">Contactanos</a>
+             
+            </li>
+            {/* <li className="nav-item">
               <a className="nav-link" href="#">Pricing</a>
             </li> */}
           </ul>
@@ -47,9 +49,10 @@ function App() {
         <Switch>
         <Route path="/" exact component={mainp} />
   <Route exact path="/panaderia"  component={panaderia}/>
+   <Route exact path="/contact"  component={contactanos}/>
   <Route exact path="/charcuteria"  component={charcuteria}/>
   <Route exact path="/restaurante"  component={restaurante}/>
-  <Route exact path="/supermerca"  component={supermerca}/>
+  <Route exact path="/carniceria"  component={carniceria}/>
  </Switch>
      
      

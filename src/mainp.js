@@ -7,9 +7,13 @@ import rcb3 from './rcb3.png'
 import rcb4 from './rcb4.png'
 import rcb5 from './rcb5.jpg'
 import logorc from './logo.png'
+import pana from './pana.jpg'
+import rest from './rest.jpg'
+import carne from './carne.jpg'
+import charcu from './charcu.jpg'
 import panaderia from './panaderia'
 import charcuteria from './charcuteria'
-import supermerca from './supermerca'
+import supermerca from './carniceria'
 import restaurante from './restaurante'
 import App from './App'
 import { NavLink , Route , Switch, Link} from 'react-router-dom';
@@ -30,7 +34,7 @@ function mainp() {
           También ofrecemos un amplio stock de repuestos y consumibles para Equipos Comerciales y Refrigeración.
 
 Estamos ubicados en el corazón de la ciudad.<br /> Distribuimos dentro de todo el territorio nacional.
- </p>
+ </p> 
 
       </section>
       <hr />
@@ -39,37 +43,37 @@ Estamos ubicados en el corazón de la ciudad.<br /> Distribuimos dentro de todo 
     <p className='texto'>
       <div className='card-deck'>
         <div className="card" stylesheet="width: 18rem;">
-          <img src={logorc} className="card-img-top" alt="..." />
+          <img src={pana} className="card-img-top" alt="..." />
 <Link to='/panaderia' >Panaderia</Link>
 
           <div className="card-body">
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p className="card-text">Lista de Equipos disponibles para Panaderia</p>
           </div>
         </div>
 
         <div className="card" stylesheet="width: 18rem;">
-          <img src={logorc} className="card-img-top" alt="..." />
+          <img src={charcu} className="card-img-top" alt="..." />
           <NavLink to='/charcuteria'> Charcuteria</NavLink>
 
           <div className="card-body">
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p className="card-text">Lista de Equipos disponibles para Charcuteria</p>
           </div>
         </div>
 
         <div className="card" stylesheet="width: 18rem;">
-          <img src={logorc} className="card-img-top" alt="..." />
+          <img src={rest} className="card-img-top" alt="..." />
           <NavLink to='/restaurante' >Restaurantes</NavLink>
           <div className="card-body">
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p className="card-text">Lista de Equipos disponibles para Restaurantes</p>
           </div>
         </div>
 
         <div className="card" stylesheet="width: 18rem;">
-          <img src={logorc} className="card-img-top" alt="..." />
-          <NavLink to='/supermerca' >Supermercados</NavLink>
+          <img src={carne} className="card-img-top" alt="..." />
+          <NavLink to='/carniceria' >Carniceria</NavLink>
          
           <div className="card-body">
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p className="card-text">Lista de Equipos disponibles para Carniceria</p>
           </div>
         </div>
       </div>

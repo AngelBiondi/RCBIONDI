@@ -8,26 +8,28 @@ function restaurante() {
   
         return (
 <div>
-<h1>Equipos para Restaurante</h1>
-<li>
-        <ul>Cocinas industriales </ul>
-        <ul>Planchas</ul>
-        <ul>Grill</ul>
-        <ul>Freidor aceite + agua</ul>
-        <ul>Baño de maria industrial </ul>
-        <ul>Hornos de convección </ul>
-        <ul>Fregaderos industriales </ul>
-        <ul>Cava cocina de conservación y congelación </ul>
-        <ul>Cavas cuarto</ul>
-        <ul>Licuadoras industriales varias capacidades </ul>
-        <ul>Procesador de alimentos </ul>
-        <ul>Molinos para carne</ul>
-        <ul>Molinos para queso</ul>
-        <ul>Mesas de trabajo en acero inoxidable</ul>
-        <ul>Asadores de pollos</ul>
-        <ul>Self Service refrigerados y valientes</ul>
+<ul className='list-group list-group-flush'>
 
-</li>
+<h1>Equipos para Restaurante</h1>
+
+        <li className='list-group-item'>Cocinas industriales </li>
+        <li className='list-group-item'>Planchas</li>
+        <li className='list-group-item'>Grill</li>
+        <li className='list-group-item'>Freidor aceite + agua</li>
+        <li className='list-group-item'>Baño de maria industrial </li>
+        <li className='list-group-item'>Hornos de convección </li>
+        <li className='list-group-item'>Fregaderos industriales </li>
+        <li className='list-group-item'>Cava cocina de conservación y congelación </li>
+        <li className='list-group-item'>Cavas cuarto</li>
+        <li className='list-group-item'>Licuadoras industriales varias capacidades </li>
+        <li className='list-group-item'>Procesador de alimentos </li>
+        <li className='list-group-item'>Molinos para carne</li>
+        <li className='list-group-item'>Molinos para queso</li>
+        <li className='list-group-item'>Mesas de trabajo en acero inoxidable</li>
+        <li className='list-group-item'>Asadores de pollos</li>
+        <li className='list-group-item'>Self Service refrigerados y valientes</li>
+</ul>
+
 </div>
         );
     

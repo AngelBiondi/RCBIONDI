@@ -8,18 +8,18 @@ function charcuteria () {
 
         return (
 <div>
+<ul className='list-group list-group-flush'>
 <h1>Equipos para Charcuteria</h1>
-<li>
-        <ul>Mostrador charcutero</ul>
-        <ul>Vitrina refrigerada </ul>
-        <ul>Balanza electrónica </ul>
-        <ul>Molino raya queso</ul>
-        <ul>Termoselladora</ul>
-        <ul>Rebanadora </ul>
-        <ul>Cava cuarto</ul>
 
+        <li className='list-group-item'>Mostrador charcutero</li>
+        <li className='list-group-item'>Vitrina refrigerada </li>
+        <li className='list-group-item'>Balanza electrónica </li>
+        <li className='list-group-item'>Molino raya queso</li>
+        <li className='list-group-item'>Termoselladora</li>
+        <li className='list-group-item'>Rebanadora </li>
+        <li className='list-group-item'>Cava cuarto</li>
 
-</li>
+</ul>
 
 </div>
         );

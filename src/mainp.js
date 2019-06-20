@@ -84,8 +84,8 @@ Estamos ubicados en el corazón de la ciudad.<br /> Distribuimos dentro de todo 
       <div className='card-deck'>
         <div className="card" stylesheet="width: 18rem;">
           <img src={pana} className="card-img-top" alt="..." />
-<Link to='/panaderia' >Panaderia</Link>
-
+<NavLink to='/panaderia' className='navli'>Panaderia</NavLink>
+  <hr/>
           <div className="card-body">
             <p className="card-text">Lista de Equipos disponibles para Panaderia</p>
           </div>
@@ -93,8 +93,8 @@ Estamos ubicados en el corazón de la ciudad.<br /> Distribuimos dentro de todo 
 
         <div className="card" stylesheet="width: 18rem;">
           <img src={charcu} className="card-img-top" alt="..." />
-          <NavLink to='/charcuteria'> Charcuteria</NavLink>
-
+          <NavLink to='/charcuteria' className='navli'> Charcuteria</NavLink>
+            <hr/>
           <div className="card-body">
             <p className="card-text">Lista de Equipos disponibles para Charcuteria</p>
           </div>
@@ -102,7 +102,7 @@ Estamos ubicados en el corazón de la ciudad.<br /> Distribuimos dentro de todo 
 
         <div className="card" stylesheet="width: 18rem;">
           <img src={rest} className="card-img-top" alt="..." />
-          <NavLink to='/restaurante' >Restaurantes</NavLink>
+          <NavLink to='/restaurante' className='navli'>Restaurantes</NavLink> <hr/>
           <div className="card-body">
             <p className="card-text">Lista de Equipos disponibles para Restaurantes</p>
           </div>
@@ -110,7 +110,7 @@ Estamos ubicados en el corazón de la ciudad.<br /> Distribuimos dentro de todo 
 
         <div className="card" stylesheet="width: 18rem;">
           <img src={carne} className="card-img-top" alt="..." />
-          <NavLink to='/carniceria' >Carniceria</NavLink>
+          <NavLink to='/carniceria' className='navli'>Carniceria</NavLink>  <hr/>
          
           <div className="card-body">
             <p className="card-text">Lista de Equipos disponibles para Carniceria</p>
@@ -149,7 +149,7 @@ Estamos ubicados en el corazón de la ciudad.<br /> Distribuimos dentro de todo 
       Venezuela
       <br />
 
-      <a href="https://www.google.com/maps/place/Refrigeraci%C3%B3n+Comercial+Biondi/@10.0721212,-69.3337968,17z/data=!3m1!4b1!4m5!3m4!1s0x8e876772cdf5b0e3:0x1043b2661ce369d2!8m2!3d10.0721212!4d-69.3316081" className="btn btn-dark btn-lg active" role="button" aria-pressed="true">COMO LLEGAR</a>
+      <a href="https://www.google.com/maps/place/Refrigeraci%C3%B3n+Comercial+Biondi/@10.0721212,-69.3337968,17z/data=!3m1!4b1!4m5!3m4!1s0x8e876772cdf5b0e3:0x1043b2661ce369d2!8m2!3d10.0721212!4d-69.3316081" className="btn btn-primary btn-lg active" role="button" aria-pressed="true">COMO LLEGAR</a>
     </p>
   </section>
   <script src="/util.js"></script>

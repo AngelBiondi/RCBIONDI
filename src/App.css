@@ -17,9 +17,10 @@
 }
 
 .card {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 35%;
+  max-height: 380px;
   align-content: space-between;
+  padding-top: none;
  
 
 
@@ -86,4 +87,13 @@ footer {
 
 .d-block{
   height: 450px;
+}
+
+.navli{
+font-size: 24px;
+}
+
+section {
+  padding-bottom: 15px;
+  padding-top: 15px;
 }

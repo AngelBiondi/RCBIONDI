@@ -143,7 +143,7 @@ Estamos ubicados en el corazón de la ciudad.<br /> Distribuimos dentro de todo 
       <br />
 
       ENCUENTRANOS: <br />
-      Avenida Venezuela esquina Calle 40, Edificio Metropolitan, PB
+      Avenida Venezuela esquina Calle 40, Edificio Metropolitan, Planta baja
       Sector Centro, Sentido Este - Oeste
       Barquisimeto 3001, Lara
       Venezuela

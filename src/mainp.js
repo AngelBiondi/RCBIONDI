@@ -143,11 +143,13 @@ Estamos ubicados en el corazón de la ciudad.<br /> Distribuimos dentro de todo 
       <br />
 
       ENCUENTRANOS: <br />
-      Avenida Venezuela esquina Calle 40, Edificio Metropolitan, Planta baja
+      Avenida Venezuela esquina Calle 40, Edificio Metropolitan, Planta baja'
       Sector Centro, Sentido Este - Oeste
       Barquisimeto 3001, Lara
       Venezuela
       <br />
+
+      {/* ESPERANDO POR FOTOS (LA EMPRESA DEBE ENVIARMELAS) PARA TERMINAR FRONT END */}
 
       <a href="https://www.google.com/maps/place/Refrigeraci%C3%B3n+Comercial+Biondi/@10.0721212,-69.3337968,17z/data=!3m1!4b1!4m5!3m4!1s0x8e876772cdf5b0e3:0x1043b2661ce369d2!8m2!3d10.0721212!4d-69.3316081" className="btn btn-primary btn-lg active" role="button" aria-pressed="true">COMO LLEGAR</a>
     </p>

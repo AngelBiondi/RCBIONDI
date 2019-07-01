@@ -87,7 +87,7 @@ Estamos ubicados en el corazón de la ciudad.<br /> Distribuimos dentro de todo 
 <NavLink to='/panaderia' className='navli'>Panaderia</NavLink>
   <hr/>
           <div className="card-body">
-            <p className="card-text">Lista de Equipos disponibles para Panaderia</p>
+            <p className="card-text">Lista de Equipos disponibles para Panaderia hola</p>
           </div>
         </div>
 

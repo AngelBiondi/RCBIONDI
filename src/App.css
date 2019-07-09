@@ -97,3 +97,10 @@ section {
   padding-bottom: 16px;
   padding-top: 16px;
 }
+
+
+.panimg {
+  width: 300px;
+  height: 300px;
+ padding: 2px;
+}

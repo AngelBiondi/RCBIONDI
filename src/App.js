@@ -14,13 +14,13 @@ import restaurante from './restaurante'
 import mainp from './mainp'
 import contactanos from './contact' 
 import { NavLink , Route , Switch, Link} from 'react-router-dom';
-import AddThing from './AddThing';
+
 
 
 function App() {
   return (
     <div className="App">
- <AddThing />
+ 
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <a className="navbar-brand" href='/' >R.C. BIONDI</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +59,7 @@ function App() {
      
 
       <footer className="footer footer-expand-lg navbar-dark bg-primary">
-        <p>REFRIGERACION COMERCIAL BIONDI</p>
+        <p>REFRIGERACION COMERCIAL BIONDI </p>
       </footer>
      
 

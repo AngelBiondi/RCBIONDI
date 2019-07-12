@@ -18,6 +18,20 @@ import { NavLink , Route , Switch, Link} from 'react-router-dom';
 
 
 function App() {
+  constructor(props); {
+    super(props);
+    this.state = { apiResponse: '' };
+}
+
+callAPI(); {
+    fetch('http://localhost:9000/testAPI')
+        .then(res => res.text())
+        .then(res => this.setState({ apiResponse: res }));
+}
+
+componentWillMount(); {
+    this.callAPI();
+}
   return (
     <div className="App">
  
@@ -62,7 +76,7 @@ function App() {
         <p>REFRIGERACION COMERCIAL BIONDI </p>
       </footer>
      
-
+      <p className="App-intro">;{this.state.apiResponse}</p>
     </div>
   );
 }

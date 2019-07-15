@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import axios from 'axios'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -18,7 +18,7 @@ import { NavLink, Route, Switch, Link } from 'react-router-dom';
 
 
 
-function App() {
+class App extends Component () {
   constructor() {
     super()
     this.state = { apiResponse: '' }

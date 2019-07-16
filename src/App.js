@@ -18,7 +18,7 @@ import { NavLink, Route, Switch, Link } from 'react-router-dom';
 
 
 
-class App extends Component () {
+class App extends Component {
   constructor() {
     super()
     this.state = { apiResponse: '' }

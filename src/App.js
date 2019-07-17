@@ -37,6 +37,7 @@ class App extends Component {
     return (
       <div className="App">
 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
           <a className="navbar-brand" href='/' >R.C. BIONDI</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">

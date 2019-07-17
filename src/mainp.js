@@ -68,7 +68,7 @@ function mainp() {
 </div>
       </header>
  <section className="descrip">
-        <img className="sp" src={logorc} />   <h1 className='textoo'>QUIENES SOMOS</h1>  <p className="textoo"> <br />
+        <img className="sp" src={logorc} />   <h1 className='textooo'>¿QUIENES SOMOS?</h1>  <p className="textoo"> <br />
           Somos una Empresa Líder en la Venta de equipos para el Comercio,
           Distribuimos equipos de Refrigeración Comercial, equipos de Exhibición Comercial, Vitrinas, Equipos para Panaderías y Charcuterías, Neveras, Refrigeradores, Cavas, Hornos para Panadería y para Pizza, Rebanadoras Charcuteras, Molinos de Carne, Calentadores, Cocinas Industriales, Licuadoras Industriales, Balanzas Comerciales y demás Equipos para el Comercio.
           También ofrecemos un amplio stock de repuestos y consumibles para Equipos Comerciales y Refrigeración.

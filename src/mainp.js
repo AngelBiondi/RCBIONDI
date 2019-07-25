@@ -4,20 +4,20 @@ import 'boostrap/js/dist/carousel';
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import rcb1 from './rcb1.png'
-import rcb2 from './rcb2.png'
-import rcb3 from './rcb3.png'
-import rcb4 from './rcb4.png'
-import rcb5 from './rcb5.jpg'
-import logorc from './logo.png'
-import pana from './pana.jpg'
-import rest from './rest.jpg'
-import carne from './carne.jpg'
-import charcu from './charcu.jpg'
-import panaderia from './panaderia'
-import charcuteria from './charcuteria'
-import supermerca from './carniceria'
-import restaurante from './restaurante'
+import rcb1 from './img/rcb1.png'
+import rcb2 from './img/rcb2.png'
+import rcb3 from './img/rcb3.png'
+import rcb4 from './img/rcb4.png'
+import rcb5 from './img/rcb5.jpg'
+import logorc from './img/logo.png'
+import pana from './img/pana.jpg'
+import rest from './img/rest.jpg'
+import carne from './img/carne.jpg'
+import charcu from './img/charcu.jpg'
+import panaderia from './cat/panaderia'
+import charcuteria from './cat/charcuteria'
+import supermerca from './cat/carniceria'
+import restaurante from './cat/restaurante'
 import App from './App'
 import { NavLink , Route , Switch, Link} from 'react-router-dom';
 
@@ -143,7 +143,7 @@ Estamos ubicados en el corazón de la ciudad.<br /> Distribuimos dentro de todo 
       <br />
 
       ENCUENTRANOS: <br />
-      Avenida Venezuela esquina Calle 40, Edificio Metropolitan, Planta baja. Sector Centro, Sentido Este - Oeste
+      Avenida Venezuela esquina Calle 40, Edificio Metropolitan, Planta baja. Sector Centro, Sentido Este - Oeste.
       Barquisimeto 3001, Lara
       Venezuela
       <br />

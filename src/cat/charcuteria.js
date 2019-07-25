@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import '../App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import App from './App'
+import App from '../App'
 
 
 function charcuteria () {
